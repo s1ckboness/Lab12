@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let contraCorrecta = "1234";
+      let contraIngresada;
+
+        do {
+             contraIngresada = prompt("Ingresa la contraseña:");
+    
+                if (contraIngresada !== contraCorrecta) 
+                {
+                    console.log("Contraseña incorrecta. Intenta de nuevo.");
+                    alert("Contraseña incorrecta. Intenta de nuevo.");
+                }
+
+            } while (contraIngresada !== contraCorrecta);
+        
+            console.log("Contraseña correcta.");
+        alert("Contraseña correcta.");
+
+    </script>
+</body>
+</html>
